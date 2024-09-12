@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amirthajaya T - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/7fdfac0d36.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+  <div class="container">
+  <nav>
+    <ul>
+        <li><a href="#header" id="one" >Home</a></li>
+        <li><a href="#about" id="two">About</a></li>
+        <li><a href="#services" id="three">My Projects</a></li>
+        <li><a href="#portfolio" id="four">My Work</a></li>
+        <li><a href="#contact" id="five">Contact</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+    </ul>
+    <i class="fas fa-bars"onclick="openmenu()"></i>
+  </nav> 
+  <div class="header-text">
+    <h2>Software Developer</h2>
+    <h1>Hi, I'm <span>Amirthajaya</span><br> From India</h1>
+  </div>
+  <div class="slideshow-container">
+    <div class="mySlides">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Discover my journey, skills, and projects. Dive into the world of technology with me!</p>
+    </div>
+    <div class="mySlides">
+        <h2>Innovative Solutions</h2>
+        <p>Explore cutting-edge technologies and ideas that drive modern solutions and enhance efficiency.</p>
+    </div>
+    <div class="mySlides">
+        <h2>Latest Projects</h2>
+        <p>Check out my recent work, from web applications to advanced machine learning systems.</p>
+    </div>
+    
+</div>
+
+</div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="images/ami2.png" alt="">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me </h1>
+            <p>
+                Innovative and detail-oriented software developer with a robust academic background and hands-on project experience. I am driven by a passion for technology and a commitment to solving complex problems through creative and effective solutions. My career is defined by a blend of technical proficiency, collaborative spirit, and a relentless pursuit of excellence.
+            </p>
+          
+                <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick= "opentab('internship')">Internship</p>
+              <p class="tab-links"onclick= "opentab('education')">Education</p>
+            </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>UI/UX</li>
+            </ul>
+           </div>
+           <div class="tab-contents"id="internship">
+            <ul>
+                <li><span>Software Developer Intern</span><br>Kriyaetive Verse Private Limited.</li>
+                <li><span>Role :</span> Frontend Developer.</li>
+                <li>Utilized HTML,CSS to develop responsive and visually appealing web pages ,hands-on experience in
+                    frontend development, including building  interactive UI components, optimizing website user loading
+                    performance, and  ensuring cross-browser compatibility.
+                    </li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2021-Current</span><br>BE-Computer Science and Engineering at Kongunadu College of Engineering and Technology,Trichy.</li>
+                <li><span>2020-2021</span> HSC from Government Higher Secondary School,Thanjavur.</li>
+                <li><span>2018-2019</span> SSLC from Government Higher Secondary School,Thanjavur.</li>
+            </ul>
+           </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+        <div>
+            <h2>Criminal Face Identification System using Machine Learning
+            </h2>
+            <p>Developed a comprehensive criminal face detection system utilizing state-of-the-art machine learning  techniques.  The system is designed to automatically identify individual  with criminal records from video feeds and images, significantly enhancing security protocols and aiding law enforcement agencies in  real-time surveillance and crime prevention.
+            </p>
+            <a href="#">learn more</a>
+        </div>
+        <div>
+            <h2>Driver Drowsiness Detection System using Deep Learning
+            </h2>
+            <p>Designed a system to identify driver fatigue by analyzing eye and facial movements with deep learning  algorithms. Key tasks included data acquisition, preprocessing, feature extraction with CNNs, and real-time  implementation.</p>
+            <a href="#">learn more</a>
+        </div>
+    </div>
+    </div>
+</div>
+<!------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ami4.png">
+                <div class="layer">
+                    <h3>Music Website Signup Page Design</h3>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ami3.png">
+                <div class="layer">
+                <h3>Music Website Home Page Design</h3>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fas fa-paper-plane"></i>amirthajaya20@gmail.com</p>
+                <p> <i class="fas fa-phone-square-alt"></i>+918098762339</p>
+                <div class="social-icons">
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                  <a href=""><i class="fab fa-github"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="images/ami5.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(var tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    // JavaScript for slideshow
+let slideIndex = 0;
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 3000); // Change slide every 3 seconds
+}
+
+function plusSlides(n) {
+    slideIndex += n;
+    showSlides();
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    showSlides();
+});
+
+</script>
+
+</body>
+</html>
