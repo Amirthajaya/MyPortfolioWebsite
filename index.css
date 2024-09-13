@@ -281,9 +281,9 @@ form btn2{
     cursor: pointer;
 }
 /*------------------css for small screens---------------------*/
-nav.fas{
+/*nav.fas{
     display: none;
-}
+}*/
 @media only screen and (max-width:600px){
     #header{
         background-image:url(images/ami.png);
